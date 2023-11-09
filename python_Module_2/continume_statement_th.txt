@@ -1,0 +1,16 @@
+Que : What is the purpose continue statement in python?In Python, the `continue` statement is used to control the flow of a loop, such as a `for` loop or a `while` loop. When the `continue` statement is encountered within a loop, it causes the current iteration of the loop to terminate prematurely, and the loop proceeds to the next iteration. In other words, the code following the `continue` statement within the current iteration is skipped, and the loop continues with the next iteration.
+
+The primary purpose of the `continue` statement is to skip a specific part of the loop's code block based on a certain condition. This can be useful when you want to skip the remaining statements in the current iteration of the loop and move on to the next iteration if a particular condition is met. It is often used for filtering or skipping specific elements in a sequence or list during iteration.
+
+Here's an example of how the `continue` statement can be used in a `for` loop to skip printing even numbers:
+
+```python
+for i in range(1, 11):
+    if i % 2 == 0:
+        continue  # Skip even numbers
+    print(i)
+```
+
+In this example, when `i` is an even number, the `continue` statement is executed, which causes the loop to skip the `print(i)` statement and move to the next iteration. As a result, only odd numbers from 1 to 10 are printed.
+
+The `continue` statement is a valuable tool for creating more selective and efficient loops, especially when you need to process or skip specific elements based on certain conditions within the loop.
