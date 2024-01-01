@@ -1,0 +1,6 @@
+#function in Python is used to combine elements from two
+
+ans :
+zip function is used to combine elements from two or more
+iterable datatypes like list,tuple
+simply it create a tuple of pairs elements from list or string
