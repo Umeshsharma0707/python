@@ -1,0 +1,22 @@
+que : What is tuple? Difference between list and tuple.
+
+-> tuple is a datatype in python,which is similar to a list
+because it is also an ordered collection datatype.
+which is used to store multiple items of different datatypes.
+
+Difference:
+List :
+-> list is mutable means you can modify changes in list 
+after creating.
+you can add,remove or change elements in list 
+-> due to its mutable behaviour,list may require more 
+memory and have slower performance than tuple.
+
+Tuple :
+-> tuple is immutable means you cannot modify changes in tuple.
+-> you cannot add or remove elements after creating a tuple.
+-> tuples have faster performance than lists.
+
+lists are  defined by using : square brackets []
+tuples are defined by using : parenthesis ()
+
