@@ -1,0 +1,21 @@
+que : How Many Basic Types Of Functions Are Available In Python?
+
+
+Built-in Functions:
+
+These are functions that are built into the Python interpreter, and you can use them directly without the need for any import statements. Examples include print(), len(), max(), and min().
+User-Defined Functions:
+
+These are functions that users define to perform a specific task.
+ You create these functions using the def keyword. 
+They can take parameters, execute a block of code and return a value.
+Anonymous Functions Lambda Functions:
+
+Lambda functions are small, anonymous functions created using
+the lambda keyword. 
+They are typically used for short operations and
+ can be defined inline.
+
+Recursive Functions:
+Recursive functions are functions that call themselves during
+ their execution.
